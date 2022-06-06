@@ -4,7 +4,7 @@ function loading() {
   var date = new Date()
   var hour = date.getHours()
   var min = date.getMinutes()
-  msg.innerHTML = `Agora são ${hour} horas e ${min} minutos`
+  msg.innerHTML = `${hour} hours and ${min} minutes`
   if (hour >= 0 && hour < 12) {
     img.src = 'img/img01.png'
     document.body.style.background = '#abe329'
