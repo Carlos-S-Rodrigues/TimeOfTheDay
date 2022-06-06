@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 67.5%;
+}
+
+body{
+  background-color: hsl(208, 100%, 78%);
+  font-family:Arial, sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+header h1{
+  padding: 2rem;
+  color:azure;
+  text-decoration: dashed;
+}
+
+section{
+  background-color: hsl(33, 82%, 94%);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.283);
+  margin: auto;
+  
+  width: 40rem;
+  height: 35rem;
+  border-radius: 10px;
+  
+}
+
+section .message{
+  font-size: 2rem;
+  padding-top: 4rem;
+}
+
+section .poster img{
+  max-width: 20rem;
+  padding-top: 4rem;
+}
+
